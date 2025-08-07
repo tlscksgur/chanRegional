@@ -1,0 +1,59 @@
+*{margin: 0; padding: 0; list-style: none; text-decoration: none; color: inherit; box-sizing: border-box; scrollbar-width: none;}
+
+.flex{display: flex;}
+.jcc{justify-content: center;}
+.aic{align-items: center;}
+.tac{text-align: center;}
+
+
+@font-face {
+  font-family: cksgur;
+  src: url(../../공통/fontawesome/fonts/fontawesome-webfont.ttf);
+}
+.container{font-family: cksgur !important; max-width: 100%; max-height: 100%;}
+
+
+header{width: 100%; height: 110px; background-color: rgba(211, 211, 211, 0.527);}
+.header-in{width: 100%; height: 110px; display: flex; justify-content: space-around; align-items: center;}
+
+.drop{height: 30px;}
+
+.sub{overflow: hidden; height: 0; transition: .3s;}
+/* .sub li{z-index: 100;} */
+.drop>ul>li:hover .sub{height: 80px;}
+
+.drop>ul>li>a{display: flex; justify-content: center; align-items: center; width: 130px; height: 40px; background-color: whitesmoke;}
+.drop>ul>li>ul>li>a{display: flex; justify-content: center; align-items: center; width: 130px; height: 40px; background-color: aliceblue;}
+
+.sub-nav ul{display: flex; justify-content: space-between; width: 350px;}
+/* ---------------헤더---------------- */
+
+
+
+.section-img{position: relative; z-index: -1;}
+.section-img img{width: 1920px; height: 590px;}
+
+.section-text{position: absolute; left: 40px; top: 550px; color: #fff;}
+.section-text ul{width: max-content; height: 100px; background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(170, 170, 170, 0.178)); border-radius: 30px;}
+
+
+/* ------------섹션----------- */
+
+footer{width: 100%; height: 250px; background-color: cadetblue; font-size: 12px;}
+.footerBigBox{display: flex; justify-content: space-evenly; align-items: center;}
+
+.ul1, .ul2, .ul3{margin-top: 15px;}
+.ul4, .ul5{margin-top: 15px;}
+
+.footerBox1{width: 550px; height: 100px; margin-top: 20px;}
+.footerBox2{width: 550px; height: 100px; margin-top: 20px;}
+
+.sns{display: flex; justify-content: space-between; width: 280px; margin-top: 20px;}
+.sns li{width: 40px; height: 40px; background-color: darksalmon; text-align: center; line-height: 40px; border-radius: 50%; transition: .3s;}
+
+.sns li:nth-child(1):hover{background-color: skyblue;}
+.sns li:nth-child(2):hover{background-color: red;}
+.sns li:nth-child(3):hover{background-color: blue;}
+.sns li:nth-child(4):hover{background-color: orangered;}
+.sns li:nth-child(5):hover{background-color: rgb(73, 73, 73);}
+/* --------------푸터-------------- */
