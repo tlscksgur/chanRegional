@@ -21,7 +21,7 @@ header{width: 100%; height: 110px; background-color: rgba(211, 211, 211, 0.527);
 .drop{height: 30px;}
 
 .sub{overflow: hidden; height: 0; transition: .3s;}
-/* .sub li{z-index: 100;} */
+.dropdown{z-index: 100;}
 .drop>ul>li:hover .sub{height: 80px;}
 
 .drop>ul>li>a{display: flex; justify-content: center; align-items: center; width: 130px; height: 40px; background-color: whitesmoke;}
@@ -30,26 +30,19 @@ header{width: 100%; height: 110px; background-color: rgba(211, 211, 211, 0.527);
 .sub-nav ul{display: flex; justify-content: space-between; width: 350px;}
 /* ---------------헤더---------------- */
 
-.product{display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 30px auto; width: 1800px; height: max-content;}
+.cartBox{width: 1700px; height: 500px; margin: 0 auto; border: 1px solid; border-radius: 20px; text-align: center; font-size: 17px;}
+.cartBox ul{width: 300px; height: 350px; padding: 10px; margin: 15px 20px; border: 1px solid; border-radius: 10px;}
+.img img{width: 100px;}
+.content{opacity: .7;}
+.price{margin-top: 15px;}
+.den{margin-top: 15px;}
 
-.popular1{grid-column: 1; grid-row: 1;}
-.popular2{grid-column: 1; grid-row: 2;}
-.popular3{grid-column: 1; grid-row: 3;}
-.popular4{grid-column: 1; grid-row: 4;}
-.popular5{grid-column: 1; grid-row: 5;}
-
-.ownItem{width: 350px; height: 400px; border: 1px solid;}
-
-.title{height: 50px; font-weight: bold; text-align: center; font-size: 18px;}
-.img img{width: 150px; height: 150px; object-fit: cover;}
-.content{height: 120px; font-size: 17px; opacity: .7; padding: 7px;}
-.price{display: flex; justify-content: space-between; width: 130px; height: 40px;}
-.btnBox{height: 50px;}
-
+.allPrice{float: right; margin: -30px 25px 0;}
+.buy{float: right; margin-right: 20px; width: 200px; height: 70px; border-radius: 20px;}
 
 /* ------------섹션----------- */
 
-footer{width: 100%; height: 250px; background-color: cadetblue; font-size: 12px;}
+footer{position: absolute; bottom: 0; width: 100%; height: 250px; background-color: cadetblue; font-size: 12px;}
 .footerBigBox{display: flex; justify-content: space-evenly; align-items: center;}
 
 .ul1, .ul2, .ul3{margin-top: 15px;}
