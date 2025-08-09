@@ -73,3 +73,27 @@
 //   });
 
 // })
+
+
+// drag and drop 모달
+
+//fetch("./js/product.json")
+//.then(res => res.json())
+//.then(data => {
+//  console.log(data);
+//  const exhibition = document.querySelector(".exhibition")
+//
+//  Object.values(data.product).forEach(item => {
+//    item.forEach(e => {
+//      exhibition.innerHTML += `
+//        <ul>
+//          <li class="Dtitle">${e.title}</li>
+//          <li class="Dimg"><img src="${e.img}" alt="${e.title}"></li>
+//          <li class="Dcontent">${e.content}</li>
+//          <li class="Dprice">${e.price}</li>
+//        </ul>
+//      `
+//    });
+//  });
+//
+//})
